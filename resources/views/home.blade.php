@@ -118,16 +118,16 @@
       <table class="table">
         <thead>
           <tr style="background-color: rgb(243 244 246 / 1);">
-            <th scope="col table-header">Full Name</th>
-            <th scope="col table-header">Phone Number</th>
-            <th scope="col table-header">Age</th>
-            <th scope="col table-header">Gender</th>
+            <th scope="col " class="table-header">Full Name</th>
+            <th scope="col " class="table-header">Phone Number</th>
+            <th scope="col " class="table-header">Age</th>
+            <th scope="col " class="table-header">Gender</th>
           </tr>
         </thead>
         <tbody style="background-color: rgb(255 255 255 / 1); border-top-width: calc(1px * calc(1 - 0)); border-bottom-width: calc(1px * 0); border-color: rgb(229 231 235 / 1);">
           <tr class="table-row">
             <td class="table-data">
-              <div style="display: flex; align-items: center; justify-content: center;">
+              <div style="display: flex; align-items: center; ">
                 <div style="flex-shrink: 0; height: 2.5rem; width: 2.5rem">
                   <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -151,13 +151,13 @@
                 </div>
               </div>
             </td>
-            <td class="table-data">0912440101</td>
-            <td class="table-data">34</td>
+            <td class="table-data">0929234343</td>
+            <td class="table-data">17</td>
             <td class="table-data">Male</td>
           </tr>
           <tr class="table-row">
             <td class="table-data">
-              <div style="display: flex; align-items: center; justify-content: center;">
+              <div style="display: flex; align-items: center; ">
                 <div style="flex-shrink: 0; height: 2.5rem; width: 2.5rem">
                   <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -176,14 +176,143 @@
                 </div>
                 <div style="margin-left: 1rem;">
                   <p style="color: rgb(17 24 39 / 1)">
-                    Dagem Tiliksew
+                  Samuel Abera
                   </p>
                 </div>
               </div>
             </td>
-            <td class="table-data">0912440101</td>
-            <td class="table-data">34</td>
+            <td class="table-data">0911384766</td>
+            <td class="table-data">17</td>
             <td class="table-data">Male</td>
+          </tr>
+               <tr class="table-row">
+            <td class="table-data">
+              <div style="display: flex; align-items: center; ">
+                <div style="flex-shrink: 0; height: 2.5rem; width: 2.5rem">
+                  <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="height: 2.5rem; width: 2.5rem; color: rgb(75 85 99 / 1);"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                  </svg>
+                </div>
+                <div style="margin-left: 1rem;">
+                  <p style="color: rgb(17 24 39 / 1)">
+                    Meba Yemiru
+                  </p>
+                </div>
+              </div>
+            </td>
+            <td class="table-data">0992761903</td>
+            <td class="table-data">17</td>
+            <td class="table-data">Male</td>
+             
+           
+          </tr>
+          </tr>
+               <tr class="table-row">
+            <td class="table-data">
+              <div style="display: flex; align-items: center; ">
+                <div style="flex-shrink: 0; height: 2.5rem; width: 2.5rem">
+                  <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="height: 2.5rem; width: 2.5rem; color: rgb(75 85 99 / 1);"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                  </svg>
+                </div>
+                <div style="margin-left: 1rem;">
+                  <p style="color: rgb(17 24 39 / 1)">
+                    Mohammed Saad
+                  </p>
+                </div>
+              </div>
+            </td>
+            <td class="table-data">0945432515</td>
+            <td class="table-data">17</td>
+            <td class="table-data">Female</td>
+             
+           
+          </tr>
+          <tr class="table-row">
+            <td class="table-data">
+              <div style="display: flex; align-items: center; ">
+                <div style="flex-shrink: 0; height: 2.5rem; width: 2.5rem">
+                  <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="height: 2.5rem; width: 2.5rem; color: rgb(75 85 99 / 1);"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                  </svg>
+                </div>
+                <div style="margin-left: 1rem;">
+                  <p style="color: rgb(17 24 39 / 1)">
+                    Yene Mistir
+                  </p>
+                </div>
+              </div>
+            </td>
+            <td class="table-data">0924338016</td>
+            <td class="table-data">17</td>
+            <td class="table-data">Female</td>
+             
+           
+          </tr>
+          <tr class="table-row">
+            <td class="table-data">
+              <div style="display: flex; align-items: center; ">
+                <div style="flex-shrink: 0; height: 2.5rem; width: 2.5rem">
+                  <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="height: 2.5rem; width: 2.5rem; color: rgb(75 85 99 / 1);"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                  </svg>
+                </div>
+                <div style="margin-left: 1rem;">
+                  <p style="color: rgb(17 24 39 / 1)">
+                    Liya Mesfin
+                  </p>
+                </div>
+              </div>
+            </td>
+            <td class="table-data">0929234343</td>
+            <td class="table-data">17</td>
+            <td class="table-data">Female</td>
+             
+           
           </tr>
         </tbody>
       </table>

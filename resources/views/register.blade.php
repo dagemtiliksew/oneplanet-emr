@@ -16,7 +16,7 @@
     <link href="{{ asset('css/common.css') }}" rel="stylesheet">
   </head>
   <body>
-    <div class="register">
+  <div class="register">
       <div class="body">
         <p style="margin-top: 0.5rem; margin-bottom: 1rem; font-size: 1.875rem; line-height: 2.25rem; color: rgba(31, 41, 55, 1); font-weight: 700; letter-spacing: 0.025em;">
           Create Account
