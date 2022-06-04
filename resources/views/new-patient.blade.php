@@ -353,9 +353,10 @@
                           htmlFor="email"
                           class="block text-sm font-medium text-gray-700"
                         >
-                          Email
+                          Email <span class="text-red-600">*</span>
                         </label>
                         <input
+                          required
                           type="email"
                           name="email"
                           id="email"

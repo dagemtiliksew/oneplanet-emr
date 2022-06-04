@@ -65,4 +65,10 @@ class PatientsController extends Controller
 
         return redirect('/');
     }
+
+    public function delete(Request $request) {
+        DB::delete('delete from patient_charts where patient_id = ?', [$request->id]);
+        DB::delete('delete from patients where id = ?', [$request->id]);
+        return back();
+    }
 }

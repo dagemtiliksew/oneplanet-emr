@@ -27,6 +27,7 @@ Route::middleware('auth')->group(function ($id) {
     Route::post('new-patient', [PatientsController::class, 'store']);
 
     Route::get('patient/{id}', [PatientController::class, 'index'])->name('patient');
+    Route::get('patient', [PatientsController::class, 'delete'])->name('delete-patient');
 
     Route::get('patient/{id}/history', [PatientController::class, 'history'])->name('history');
     Route::post('history', [PatientController::class, 'storeHistory'])->name('store-history');

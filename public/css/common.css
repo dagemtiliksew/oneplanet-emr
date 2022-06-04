@@ -1,0 +1,30 @@
+html, body {
+    padding: 0% !important;
+    margin: 0% !important;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none !important;
+    top:0;left:0;bottom:0;right:0;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-initial {
+    flex: 0 1 auto;
+  }
+  
+  .flex-1 {
+    flex: 1 1 0%;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }

@@ -28,7 +28,7 @@
 
             <div class="flex space-x-8 items-center mt-4">
                 <div class="w-1/6">
-                    <p class="text-gray-900 tracking-wide">Temperature</p>
+                    <p class="text-gray-900 tracking-wide font-semibold">Temperature</p>
                 </div>
                 <div class="flex-1">
                     <input type="number" name="temperature" placeholder="C°" value="{{ $patient_chart == null ? '' : $patient_chart->temperature }}"
