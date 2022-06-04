@@ -53,11 +53,11 @@
                     </div>
 
                     <div style="margin-top: 0.5rem">
-                        <label htmlFor="confirmPassword" class="input-label">
+                        <label htmlFor="password_confirmation" class="input-label">
                             Confirm Password
                         </label>
-                        <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password"
-                            required class="input" />
+                        <input type="password" name="password_confirmation" id="password_confirmation"
+                            placeholder="Confirm Password" required class="input" />
                     </div>
 
                     <div style="margin-top: 1rem; color: red;">
