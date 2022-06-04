@@ -22,29 +22,48 @@
             <p class="text-teal-600">{{ $patient_chart == null ? '' : $patient_chart->pulse }}</p>
         </div>
         <div>
-            <p class="font-semibold text-gray-700">e</p>
+            <p class="font-semibold text-gray-700">Respiratory Rate</p>
             <p class="text-teal-600">{{ $patient_chart == null ? '' : $patient_chart->temperature }}</p>
         </div>
         <div>
-            <p class="font-semibold text-gray-700">Blood pressure</p>
+            <p class="font-semibold text-gray-700">Oxygen Saturation</p>
             <p class="text-teal-600">{{ $patient_chart == null ? '' : $patient_chart->temperature }}</p>
         </div>
         <div>
-            <p class="font-semibold text-gray-700">Blood pressure</p>
+            <p class="font-semibold text-gray-700"> </p>
             <p class="text-teal-600">{{ $patient_chart == null ? '' : $patient_chart->temperature }}</p>
         </div>
         <div>
-            <p class="font-semibold text-gray-700">Blood pressure</p>
+            <p class="font-semibold text-gray-700"> </p>
             <p class="text-teal-600">{{ $patient_chart == null ? '' : $patient_chart->temperature }}</p>
         </div>
         <div>
-            <p class="font-semibold text-gray-700">Blood pressure</p>
+            <p class="font-semibold text-gray-700">Height</p>
             <p class="text-teal-600">{{ $patient_chart == null ? '' : $patient_chart->temperature }}</p>
         </div>
         <div>
-            <p class="font-semibold text-gray-700">Blood pressure</p>
+            <p class="font-semibold text-gray-700">Weight</p>
             <p class="text-teal-600">{{ $patient_chart == null ? '' : $patient_chart->temperature }}</p>
         </div>
+        <div>
+            <p class="font-semibold text-gray-700">BMI</p>
+            <p class="text-teal-600">{{ $patient_chart == null ? '' : $patient_chart->temperature }}</p>
+        </div>
+
+        <p class="mt-5 text-lg font-semibold">History</p>
+    <div class="grid grid-cols-3 gap-2 ">
+        
+
+
+        <p class="mt-5 text-lg font-semibold">Past Medications</p>
+    <div class="grid grid-cols-3 gap-2 ">
+
+
+         
+         
+
+
+
     </div>
    </div>
 </x-patient-layout>

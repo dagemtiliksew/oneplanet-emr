@@ -59,6 +59,7 @@ class PatientController extends Controller
 
         if(count($patient_chart) == 0) {
             $result = DB::insert('insert into patient_charts (chief_complaints, patient_id) values (?, ?)', [$request->chief_complaints, $request->id]);
+
         } else {
             $patient_chart = $patient_chart[0];
             $result = DB::update('update patient_charts set chief_complaints = ? where id = ?', [$request->chief_complaints, $patient_chart->id]);
