@@ -3,7 +3,7 @@
         <div class="overflow-y-auto py-4 px-3 bg-gray-50 rounded">
             <ul class="space-y-2">
                 <li>
-                    <x-side-bar-link :href="route('patient', ['id' => 1])" :active="request()->routeIs('patient', ['id' => 1])">
+                    <x-side-bar-link :href="route('patient', ['id' => request()->id])" :active="request()->routeIs('patient', ['id' => request()->id])">
                         <svg class="w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900"
                             fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path>
@@ -13,7 +13,7 @@
                     </x-side-bar-link>
                 </li>
                 <li>
-                    <x-side-bar-link :href="route('history', ['id' => 1])" :active="request()->routeIs('history', ['id' => 1])">
+                    <x-side-bar-link :href="route('history', ['id' => request()->id])" :active="request()->routeIs('history', ['id' => request()->id])">
                         <svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900"
                             fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -24,7 +24,7 @@
                     </x-side-bar-link>
                 </li>
                 <li>
-                    <x-side-bar-link :href="route('chief-complaints', ['id' => 1])" :active="request()->routeIs('chief-complaints', ['id' => 1])">
+                    <x-side-bar-link :href="route('chief-complaints', ['id' => request()->id])" :active="request()->routeIs('chief-complaints', ['id' => request()->id])">
                         <svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900"
                             fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -38,7 +38,7 @@
                     </x-side-bar-link>
                 </li>
                 <li>
-                    <x-side-bar-link :href="route('past-medications', ['id' => 1])" :active="request()->routeIs('past-medications', ['id' => 1])">
+                    <x-side-bar-link :href="route('past-medications', ['id' => request()->id])" :active="request()->routeIs('past-medications', ['id' => request()->id])">
                         <svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900"
                             fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
@@ -48,7 +48,7 @@
                     </x-side-bar-link>
                 </li>
                 <li>
-                    <x-side-bar-link :href="route('vital-signs', ['id' => 1])" :active="request()->routeIs('vital-signs', ['id' => 1])">
+                    <x-side-bar-link :href="route('vital-signs', ['id' => request()->id])" :active="request()->routeIs('vital-signs', ['id' => request()->id])">
                         <svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900"
                             fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
@@ -59,7 +59,7 @@
                     </x-side-bar-link>
                 </li>
                 <li>
-                    <x-side-bar-link :href="route('physical-exam', ['id' => 1])" :active="request()->routeIs('physical-exam', ['id' => 1])">
+                    <x-side-bar-link :href="route('physical-exam', ['id' => request()->id])" :active="request()->routeIs('physical-exam', ['id' => request()->id])">
                         <svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900"
                             fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
@@ -70,7 +70,7 @@
                     </x-side-bar-link>
                 </li>
                 <li>
-                    <x-side-bar-link :href="route('diagnosis', ['id' => 1])" :active="request()->routeIs('diagnosis', ['id' => 1])">
+                    <x-side-bar-link :href="route('diagnosis', ['id' => request()->id])" :active="request()->routeIs('diagnosis', ['id' => request()->id])">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -80,7 +80,7 @@
                     </x-side-bar-link>
                 </li>
                 <li>
-                    <x-side-bar-link :href="route('prescription', ['id' => 1])" :active="request()->routeIs('prescription', ['id' => 1])">
+                    <x-side-bar-link :href="route('prescription', ['id' => request()->id])" :active="request()->routeIs('prescription', ['id' => request()->id])">
                         <svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900"
                             fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
@@ -93,7 +93,7 @@
             </ul>
             <ul class="pt-4 mt-4 space-y-2 border-t border-gray-200">
                 <li>
-                    <x-side-bar-link :href="route('summary', ['id' => 1])" :active="request()->routeIs('summary', ['id' => 1])">
+                    <x-side-bar-link :href="route('summary', ['id' => request()->id])" :active="request()->routeIs('summary', ['id' => request()->id])">
                         <svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900"
                             fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
